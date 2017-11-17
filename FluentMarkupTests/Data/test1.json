@@ -1,0 +1,13 @@
+{
+    "elements":[
+        {
+            "type": "FluentMarkup.Html.Form",
+            "attributes": [ { "attributename": "id", "values": ["test_element"] } ]
+        },
+        {
+            "type": "FluentMarkup.Html.Button",
+            "attributes": [ { "attributename": "id", "values": ["test_element2"] } ],
+            "parentid": "test_element"
+        }
+    ]
+}

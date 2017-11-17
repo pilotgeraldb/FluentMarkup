@@ -1,0 +1,18 @@
+{
+    "elements": [
+        {
+            "type": "Form",
+            "attributes": [ { "attributename": "id", "values": ["test_element1"] } ]
+        },
+        {
+            "type": "Label",
+            "attributes": [ { "attributename": "id", "values": ["test_element2"] } ],
+            "parentid": "test_element1"
+        },
+        {
+            "type": "Input",
+            "attributes": [ { "attributename": "id", "values": ["test_element3"] } ],
+            "parentid": "test_element2"
+        }
+    ]
+}

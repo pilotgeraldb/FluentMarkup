@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.3.1"/>
+    <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FluentMarkup\FluentMarkup.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Data/*.json" CopyToOutputDirectory="PreserveNewest"/>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Data/*.html" CopyToOutputDirectory="PreserveNewest"/>
+  </ItemGroup>
+</Project>

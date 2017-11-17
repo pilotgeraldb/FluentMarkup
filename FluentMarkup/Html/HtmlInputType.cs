@@ -1,0 +1,29 @@
+namespace FluentMarkup.Html
+{
+    public enum HtmlInputType
+    {
+        None,
+        Hidden,
+        Text,
+        Password,
+        Date,
+        Button,
+        Checkbox,
+        Color,
+        DateTime_Local,
+        Email,
+        File,
+        Image,
+        Month,
+        Number,
+        Radio,
+        Range,
+        Reset,
+        Search,
+        Submit,
+        Tel,
+        Time,
+        Url,
+        Week        
+    }
+}

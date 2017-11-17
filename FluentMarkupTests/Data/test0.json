@@ -1,0 +1,8 @@
+{
+    "elements":[
+        {
+            "type": "FluentMarkup.Html.Form",
+            "attributes": [ { "attributename": "id", "values": ["test_element"] } ]
+        }
+    ]
+}
