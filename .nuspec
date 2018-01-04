@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>FluentMarkup</id>
+    <version>$version$</version>
+    <title>FluentMarkup</title>
+    <authors>Gerald Burkholder</authors>
+    <owners>Gerald Burkholder</owners>
+    <licenseUrl>https://github.com/ralphy15/FluentMarkup/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ralphy15/FluentMarkup</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>fluent style markup for all your markup needs</description>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="FluentMarkup\bin\$configuration$\FluentMarkup.dll" target="lib\netcoreapp2.0\" />
+  </files>
+</package>
