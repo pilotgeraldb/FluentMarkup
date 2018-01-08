@@ -263,15 +263,5 @@ namespace FluentMarkupTests
             Assert.Equal(2, clone.Attributes.Count());
             Assert.NotEqual(element.ElementID, elementuniqueid);
         }
-
-        [Fact]
-        public void ShouldWrapElement()
-        {
-            IElement e = new Input().WrapWith(new Label().Text("test"));
-
-            string result = e.Render();
-
-            Assert.Equal("<label>test<input/></label>", result);
-        }
     }
 }
